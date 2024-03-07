@@ -13,6 +13,8 @@ namespace Abstract_Class_Task_2
 
         public Book(int Id, string name, int price, int count, string genre) : base(Id,name, price, count)
         {
+            this.Genre= genre;
+
         }
        
     }

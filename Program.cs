@@ -49,7 +49,7 @@ namespace Abstract_Class_Task_2
             Console.WriteLine("\nList of Books:");
             for (int i = 0; i < ArrayLength; i++)
             {
-                Console.WriteLine($"Book {i + 1} - ID: {BookArray[i].Id}, Name: {BookArray[i].Name}, Price: {BookArray[i].Price}, Count: {BookArray[i].count}, Genre: {BookArray[i].Genre}");
+                Console.WriteLine($"Book {i+1 } - ID: {BookArray[i].Id+1}, Name: {BookArray[i].Name}, Price: {BookArray[i].Price}, Count: {BookArray[i].count}, Genre: {BookArray[i].Genre}");
             }
 
         }
